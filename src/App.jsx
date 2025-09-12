@@ -7,7 +7,12 @@ import {
   InteractiveSection,
   IconSection,
 } from "./appStyles.js";
+
+import Title from "./Components/Title.jsx";
+import PulseDot from "./Components/PulseDot.jsx";
 import IconButton from "./Components/IconButton.jsx";
+import WorkExperience from "./Components/WorkExperience.jsx";
+import ProjectsSection from "./Components/ProjectsSection.jsx";
 
 <style>
   @import
@@ -141,7 +146,7 @@ function App() {
         fontWeight="300"
         variant="h5"
         maxWidth="800px"
-        margin="80px 0"
+        margin="80px 0 40px 0"
         textAlign="center"
       >
         Hi, I’m Khachatur, a results-driven GIS specialist and frontend
@@ -151,6 +156,31 @@ function App() {
         learning fast, improving processes, and collaborating with diverse,
         remote teams to deliver real results.
       </Typography>
+
+      <Typography
+        color="#fff"
+        fontWeight="200"
+        variant="h6"
+        textAlign="center"
+        margin="20px 0 20px 0"
+      >
+        Let's explore My path together
+      </Typography>
+      <PulseDot
+        icon="/portfolio/icons/f1car.png"
+        onClick={() => console.log("Dot clicked! Soon we animate scroll 🚀")}
+      />
+      <Title sectionName="Work Experience" />
+      <>
+        <WorkExperience />
+      </>
+      <Title sectionName="Projects" />
+      <>
+        <ProjectsSection />
+      </>
+      <Title sectionName="Skills" />
+      <Title sectionName="Education" />
+      <Title sectionName="Contact Information" />
     </Container>
   );
 }
