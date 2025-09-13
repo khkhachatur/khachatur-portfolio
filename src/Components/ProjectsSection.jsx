@@ -19,11 +19,34 @@ const projects = [
     github: "https://github.com/khkhachatur/art_factory.git",
   },
   {
-    title: "Calculation Tool",
+    title:
+      "Etosha & Okovango, Kassanje, Congo Kwanza — Large-Scale Geospatial Database Creation",
     image: "/portfolio/projects/calculator.png",
-    tags: ["React", "Custom Hooks"],
+    tags: [
+      "ArcGIS 10.8",
+      "ArcGIS Pro",
+      "Global Mapper",
+      "Scouting",
+      "Microsoft Office",
+    ],
     description:
-      "Interactive tool with real-time calculations and filters. Users can adjust parameters to instantly see results.",
+      "Led the development of geospatial databases across three major projects, covering a combined area of 100,000+ sq. km. Standardized and enhanced data accessibility for all locations, enabling field teams to collect, update, and analyze data more efficiently. This work resulted in faster data collection, improved accuracy, and streamlined reporting across multiple sites.",
+  },
+  {
+    title: " The Beach Restaurant — QR Menu System (2021)",
+    image: "/portfolio/projects/calculator.png",
+    tags: ["HTML", "CSS", "JavaScript", "QR Code API", "Redux", "Inner db"],
+    description:
+      "Led the development of geospatial databases across three major projects, covering a combined area of 100,000+ sq. km. Standardized and enhanced data accessibility for all locations, enabling field teams to collect, update, and analyze data more efficiently. This work resulted in faster data collection, improved accuracy, and streamlined reporting across multiple sites.",
+  },
+  {
+    title: "ARTE Final — Awareness & Fundraising Web App (2023)",
+    image: "/portfolio/projects/calculator.png",
+    tags: ["HTML", "CSS"],
+    description:
+      "Designed and deployed a lightweight website in just a few hours to raise awareness and support for saving Armenian cultural buildings. Distributed across Europe using QR codes, enabling fast and accessible engagement. Demonstrated ability to rapidly build, launch, and scale a digital initiative with real-world social impact.",
+    liveLink: "https://khkhachatur.github.io/ARTE-final/",
+    github: "https://github.com/khkhachatur/ARTE-final.git",
   },
 ];
 
@@ -103,7 +126,7 @@ export default function ProjectsSection() {
                   target="_blank"
                   sx={{
                     borderRadius: "20px",
-                    color: "#fff",
+                    backgroundColor: "#651425",
                     borderColor: "#fff",
                   }}
                 >

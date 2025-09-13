@@ -11,6 +11,7 @@ import {
 import Title from "./Components/Title.jsx";
 import PulseDot from "./Components/PulseDot.jsx";
 import IconButton from "./Components/IconButton.jsx";
+import SkillsSection from "./Components/SkillsSection.jsx";
 import WorkExperience from "./Components/WorkExperience.jsx";
 import ProjectsSection from "./Components/ProjectsSection.jsx";
 
@@ -178,7 +179,8 @@ function App() {
       <>
         <ProjectsSection />
       </>
-      <Title sectionName="Skills" />
+      <Title sectionName="Skills & Languages" />
+      <SkillsSection />
       <Title sectionName="Education" />
       <Title sectionName="Contact Information" />
     </Container>
